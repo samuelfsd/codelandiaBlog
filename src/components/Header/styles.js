@@ -13,6 +13,9 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    color: var(--white);
+
     padding: 15px;
     margin-bottom: 50px;
   }
@@ -23,7 +26,7 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
 
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     img{
       position: absolute;
       top: 12px;
@@ -34,6 +37,7 @@ export const Wrapper = styled.div`
       padding: 20px 15px 20px 60px;
       background: rgba(255, 255, 255, 0.2);
       border:none;
+      color:var(--white);
     }
   }
 
