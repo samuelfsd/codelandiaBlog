@@ -10,11 +10,14 @@ export const Wrapper = styled.main`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
+  color: var(--gray);
+  font-size:12px;
 `;
 
 export const TextContent = styled.article`
   padding: 1rem 3rem;
-  h2{
+  h2,p{
     margin-bottom: 1rem;
   }
+
 `;
