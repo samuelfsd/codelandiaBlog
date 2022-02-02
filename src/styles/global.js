@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     --white-2D:#f9f9f9;
     --gray:#717171;
     --gray-dark:#1A202C;
+    --background:#F3F5F7;
   }
 
   *{
@@ -24,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
   body{
-    background: var(--background-gray);
+    background: var(--background);
     -webkit-font-smoothing:antialiased;
   }
   body,input,textarea,button{
